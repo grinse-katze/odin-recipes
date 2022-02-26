@@ -1,2 +1,2 @@
-# recipes
+# odin-recipes
 wup wup some recipes wup wup
