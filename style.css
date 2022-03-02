@@ -1,0 +1,42 @@
+@font-face {
+    font-family: norse;
+    src: url(./fonts/norse/Norse.otf);
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/norse/Norsebold.otf);
+}
+
+* {
+    font-family: "Calibri";
+    background-color:rgb(243, 229, 203);
+}
+
+.header-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: auto;
+}
+
+h1 {
+    display: block;
+    font-family: norse;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -1px;
+}
+
+h2 {
+    font-family: "Caveat";
+    text-align: center;
+    margin-top: -17px;
+    font-size: 23px;
+}
+
+.recipe-pics {
+    width: 400px;
+    height: auto;
+}
