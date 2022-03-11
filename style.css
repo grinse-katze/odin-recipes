@@ -8,6 +8,8 @@
     src: url(./fonts/norse/Norsebold.otf);
 }
 
+
+
 * {
     font-family: "Calibri";
     background-color:rgb(243, 229, 203);
@@ -37,6 +39,38 @@ h2 {
 }
 
 .recipe-pics {
-    width: 400px;
+    width: 300px;
     height: auto;
+    border: 3px solid rgb(158, 134, 89);
+    border-radius: 5%;
+}
+
+.img-text {
+    font-size: 30px;
+    font-family: norse;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.recipe-pics:hover{
+    opacity: 0.3;
+}
+
+.img-wrap {
+    position: relative;
+    text-align: center;
+}
+
+
+.img-wrap:hover .img-text {
+    visibility: visible;
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
 }
